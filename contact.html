@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <tile></tile>
+    </head>
+    
+    <body>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Preamus</a>
+            <a href="gear.html">Gear</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    <p>
+        <div>
+            <h1 style="text-align: center">Contact me on...</h1>
+            <img src="https://scontent-dus1-1.cdninstagram.com/v/t51.2885-19/s150x150/101687041_1354481778274978_2052964195342745600_n.jpg?_nc_ht=scontent-dus1-1.cdninstagram.com&_nc_ohc=yaZxWtOP9TEAX9wJMp-&oh=ba68341a1de7c90dde955722367a8ef8&oe=5F15E045" alt="Avatar" class="avatar">
+            <button class="btn"><h2 style="text-align: center"><a href="https://www.instagram.com/preamus_/" style="text-decoration:none">Instagram</a></h2></button>
+        </div>
+    </p>
+            <div>
+                <h2 style="text-align: center">or via E-Mail</h2>
+            </div>
+     <p>      
+    <div  class="wrapper">
+        <div>
+            <input type="text" value="BreumusCooleMail@gangerbanger.xxx" id="myInput" class="wrapper">
+</p>
+<p>
+            <button class="btn" onclick="myFunction()">Copy to Clipboard</button>
+        </div>
+    </div>
+    </p>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+
+            function myFunction() {
+             /* Get the text field */
+             var copyText = document.getElementById("myInput");
+
+             /* Select the text field */
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+            /* Copy the text inside the text field */
+            document.execCommand("copy");
+
+            }
+            </script>
+    </body>
+</html>
